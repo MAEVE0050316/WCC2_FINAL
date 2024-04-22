@@ -1,0 +1,18 @@
+html, body {
+  margin: 0;
+  padding: 0
+}
+
+canvas {
+  display: block;
+  position: absolute; /* Position it absolutely so it can be on top */
+  z-index: 2; /* Higher index to be on top */
+}
+
+video {
+  position: absolute;
+  z-index: 1; /* Ensure video is behind the canvas */
+  transform: translate(-84%, 90%); /* Center the video */
+  top: 80%;
+  left: 39%;
+}
